@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+ <remote name="me" fetch="https://github.com/yoriscape" />
+ <remote name="kernel" fetch="https://gitlab.com/VoidUI-Devices" />
+
+ <!-- Device Tree -->
+ <project path="device/xiaomi/alioth" name="dt" remote="me" revision="tm" />
+
+ <!-- Vendor -->
+ <project path="vendor/xiaomi/alioth" name="vt" remote="me" revision="main" />
+
+ <!-- Common Tree -->
+ <project path="device/xiaomi/sm8250-common" name="dt-commom" remote="me" revision="tm" />
+
+ <!-- Common Vendor Tree -->
+ <project path="vendor/xiaomi/sm8250-common" name="vt-commom" remote="me" revision="main" />
+
+<!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="kernel" revision="aosp-13" />
